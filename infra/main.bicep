@@ -351,8 +351,8 @@ module appServicePlan './core/host/appserviceplan.bicep' = {
     location: location
     tags: updatedTags
     sku: {
-      name: 'Y1'
-      tier: 'Dynamic'
+      name: 'P0v3'
+      tier: 'PremiumV3'
     }
   }
 }
